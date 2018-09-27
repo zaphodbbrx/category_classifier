@@ -1,6 +1,5 @@
 {
   "model_path":"aux/model.pkl",
-  "exf_path":"aux/exf.pkl",
   "num2title_path":"aux/num2title.pkl",
   "vect_path":"aux/vect.pkl"
 }
