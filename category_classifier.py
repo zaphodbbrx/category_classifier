@@ -12,6 +12,7 @@ class CategoryClassifier():
     def __init__(self,config_path):
         config = json.load(open(config_path))
         self.exf= extra_features_extractor().fit()
+        
         with open(config['vect_path'],'rb') as f:
             self.vect= pickle.load(f)
         with open(config['num2title_path'],'rb') as f:
